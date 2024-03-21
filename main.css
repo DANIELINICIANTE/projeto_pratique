@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    height: 100vh;
+}
+
+.container {
+    font-family: "Madimi One", sans-serif;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.904);
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #05080a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Madimi One", sans-serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f3f3f3;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+table td input[type="text"],
+table td input[type="tel"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
